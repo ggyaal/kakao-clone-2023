@@ -1,0 +1,25 @@
+.soild-alert {
+	background-color: var(--alert-color) !important;
+	color: white !important;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 11px !important;
+	font-weight: 600;
+}
+
+.alert {
+	border: 2px solid var(--alert-color) !important;
+	color: var(--alert-color) !important;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 11px !important;
+	font-weight: 600;
+}

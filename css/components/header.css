@@ -1,0 +1,46 @@
+header {
+	margin-top: 30px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 25px 30px;
+}
+
+header h1 {
+	font-size: 30px;
+}
+
+.header__icon {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 30px;
+}
+
+.header__icon i:not(:last-child) {
+	margin-right: 20px;
+}
+
+.three-child {
+	justify-content: center;
+}
+
+.three-child > * {
+	width: 33%;
+}
+
+.three-child > h1 {
+	display: flex;
+	justify-content: center;
+}
+
+.three-child > div:first-child {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.three-child > div:last-child {
+	display: flex;
+	justify-content: flex-end;
+}

@@ -1,0 +1,29 @@
+.friends-info {
+	width: 100%;
+	background-color: rgba(0, 0, 0, .1);
+	padding: 13px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.friends-info > *:not(:last-child) {
+	margin-right: 10px;
+}
+
+.friends-info i {
+	color: rgba(0, 0, 0, .3);
+}
+
+.friends-main {
+	padding: 15px 30px;
+}
+
+.friends-main .main-info {
+	border-top: 2px solid rgba(0, 0, 0, .1);
+	padding: 10px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: rgba(0, 0, 0, .3);
+}
