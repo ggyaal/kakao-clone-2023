@@ -1,3 +1,13 @@
 .chats-main {
 	padding: 0 30px;
 }
+
+.chats-profile {
+	display: block;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+.chats-profile:hover {
+	background-color: rgba(0, 0, 0, .1);
+}

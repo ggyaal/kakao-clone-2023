@@ -33,6 +33,7 @@ header h1 {
 .three-child > h1 {
 	display: flex;
 	justify-content: center;
+	white-space: nowrap;
 }
 
 .three-child > div:first-child {
@@ -43,4 +44,13 @@ header h1 {
 .three-child > div:last-child {
 	display: flex;
 	justify-content: flex-end;
+}
+
+.rotate-ef:hover {
+	animation: rotate-effect 1s linear infinite;
+}
+
+@keyframes rotate-effect {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
 }
