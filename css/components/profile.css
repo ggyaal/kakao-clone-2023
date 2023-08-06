@@ -36,6 +36,7 @@
 
 .profile__text {
 	flex-grow: 1;
+	flex-shrink: 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
@@ -44,6 +45,18 @@
 
 .profile__text div:first-child {
 	font-size: 20px;
+}
+
+.friend-profile__title {
+	font-weight: 600;
+}
+
+.friend-profile__sub {
+	color: rgba(0, 0, 0, .5);
+	max-width: 210px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
 .profile__info {

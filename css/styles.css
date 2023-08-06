@@ -9,6 +9,7 @@
 @import "components/profile.css";
 @import "components/nav.css";
 @import "components/alert.css";
+@import "components/no-mobile.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -25,4 +26,5 @@
 
 body {
 	font-family: 'REM', sans-serif;
+	margin-bottom: 50px;
 }

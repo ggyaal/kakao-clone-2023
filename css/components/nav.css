@@ -6,6 +6,7 @@ nav {
 	font-size: 25px;
 	padding: 20px 50px;
 	border-top: 2px solid rgba(0, 0, 0, .1);
+	z-index: 2;
 }
 
 nav ul {
@@ -15,6 +16,7 @@ nav ul {
 }
 
 nav ul li {
+	position: relative;
 	transform: translateY(30px);
 	animation: sunup 1s ease-in-out forwards;
 	opacity: 0;
@@ -22,6 +24,13 @@ nav ul li {
 
 nav ul li:nth-child(2) {
 	animation-delay: .3s;
+}
+
+nav ul li:nth-child(2) .alert-one {
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	animation: alertone 3s ease-in-out infinite;
 }
 
 nav ul li:nth-child(3) {
@@ -41,3 +50,15 @@ nav ul li:nth-child(4) {
 		transform: none;
 	}
 }
+
+@keyframes alertone {
+	0% {
+	  transform: none;
+	}
+	50% {
+	  transform: translateY(-5px) rotateY(360deg);
+	}
+	100% {
+	  transform: none;
+	}
+  }

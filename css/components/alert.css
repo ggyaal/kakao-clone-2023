@@ -23,3 +23,13 @@
 	font-size: 11px !important;
 	font-weight: 600;
 }
+
+.alert-dot {
+	background-color: tomato;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	position: absolute;
+	top: -5px;
+	left: 30px;
+}

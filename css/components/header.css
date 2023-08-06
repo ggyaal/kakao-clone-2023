@@ -18,7 +18,7 @@ header h1 {
 	font-size: 30px;
 }
 
-.header__icon i:not(:last-child) {
+.header__icon > i:not(:last-child) {
 	margin-right: 20px;
 }
 
@@ -48,6 +48,10 @@ header h1 {
 
 .rotate-ef:hover {
 	animation: rotate-effect 1s linear infinite;
+}
+
+.cog-link {
+	position: relative;
 }
 
 @keyframes rotate-effect {
